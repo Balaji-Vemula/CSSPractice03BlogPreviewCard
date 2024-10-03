@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+}
+
+section {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+
+    font-weight: 800;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    border: 1px solid var(--Black);
+    -webkit-box-shadow: 6.5px 6.5px 0 0.5px #000000;
+    -moz-box-shadow: 6.5px 6.5px 0 0.5px #000000;
+    box-shadow: 6.5px 6.5px 0 0.5px #000000;
+}
+
+.description {
+    color: var(--Grey);
+    width: 330px;
+}
+
+.head img {
+    /* width: 400px;
+    height: 200px; */
+    border-radius: 10px;
+}
+
+.head .name {
+    background-color: var(--Yellow);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .name {
+    padding-left: 10px;
+}
